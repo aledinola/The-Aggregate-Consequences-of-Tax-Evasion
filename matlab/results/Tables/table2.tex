@@ -1,0 +1,30 @@
+\documentclass[a4paper,10pt]{article} 
+\begin{document} 
+\begin{table}[htbp] \centering 
+\caption{Internally Calibrated Parameters} 
+\label{table:parameters_inside} 
+\begin{tabular}{ccll} \hline 
+Parameter & Description & Value & Target \\ 
+\hline \hline 
+\textit{\underline{Preferences}} &  & &  \\  
+$\beta$ & Discount factor &   0.9453 & 4\% Interest rate \\ 
+$\psi$ & Disutility from working &    0.830 & Hours worked \\ 
+\textit{\underline{Production}} &  & &  \\  
+$\delta$ & Capital depreciation &    0.110 & Capital-output ratio \\ 
+$\nu$ & Span of control &    0.740 & Firm Size \\ 
+$\gamma$ & Capital share, self-employed &    0.730 & Share of hiring, self-employed \\ 
+$\lambda$ & Leverage ratio &    1.500 & Leverage of self-employed \\ 
+\textit{\underline{Self-employed ability}} &  & &  \\  
+$\rho_{\theta}$   & Persistence        &    0.952 & Exit rate, SE to W \\ 
+$\sigma_{\theta}$ & Standard deviation &    0.670 & Gini income, SE \\ 
+$\mu_{\theta}     $ & Unconditional mean &   -1.120 & Share, SE \\ [0.5ex] 
+\textit{\underline{Tax evasion detection}} &  & &  \\  
+$\kappa$ & Cost ot tax evasion &   0.1315 & Misreporting rate \\ 
+$p_{1}$ & Parameter of $p(k)$   & 2250.000 & Tax evasion by income \\ 
+$p_{2}$ & Parameter of $p(k)$   &    0.350 & Tax evasion by income \\ 
+\textit{\underline{Tax functions rescale}} &  & &  \\  
+$\chi$  & Rescaling parameter       &   11.000 & Tax revenues as share of GDP \\ 
+\hline \hline 
+ \end{tabular} 
+\end{table} 
+\end{document} 

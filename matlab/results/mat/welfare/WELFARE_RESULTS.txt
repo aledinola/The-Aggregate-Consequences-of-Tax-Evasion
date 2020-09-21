@@ -1,0 +1,253 @@
+Comparing baseline with no_redistrib_pe
+CEV definition: CE1
+Total CEV(%): -1.331007 
+Total CEV Self-employed(%): -4.283473 
+Total CEV Workers(%): -0.838912 
+
+CEV(%) Self-employed: 
+Decile1: NaN 
+Decile2: -9.171035 
+Decile3: -4.619223 
+Decile4: -4.861385 
+Decile5: -5.104872 
+Decile6: -5.654591 
+Decile7: -5.380179 
+Decile8: -5.602772 
+Decile9: -5.631431 
+Decile10: -2.487871 
+
+CEV(%) Workers: 
+Decile1: -0.496981 
+Decile2: -0.643901 
+Decile3: -0.718480 
+Decile4: -0.825286 
+Decile5: -0.942516 
+Decile6: -1.000459 
+Decile7: -1.008443 
+Decile8: -1.050697 
+Decile9: -1.015610 
+Decile10: -0.850595 
+
+***********************************************
+
+Comparing baseline with no_redistrib
+CEV definition: CE1
+Total CEV(%): -1.746394 
+Total CEV Self-employed(%): -3.786370 
+Total CEV Workers(%): -1.406386 
+
+CEV(%) Self-employed: 
+Decile1: NaN 
+Decile2: -9.482155 
+Decile3: -5.203439 
+Decile4: -5.391702 
+Decile5: -5.579657 
+Decile6: -6.060280 
+Decile7: -5.731560 
+Decile8: -5.852072 
+Decile9: -5.686179 
+Decile10: -0.781212 
+
+CEV(%) Workers: 
+Decile1: -1.502611 
+Decile2: -1.592729 
+Decile3: -1.582324 
+Decile4: -1.586965 
+Decile5: -1.597511 
+Decile6: -1.554277 
+Decile7: -1.451664 
+Decile8: -1.345808 
+Decile9: -1.090733 
+Decile10: 0.225430 
+
+***********************************************
+
+Comparing baseline with lump_sum_pe
+CEV definition: CE1
+Total CEV(%): 1.891606 
+Total CEV Self-employed(%): -1.859415 
+Total CEV Workers(%): 2.516798 
+
+CEV(%) Self-employed: 
+Decile1: NaN 
+Decile2: -5.312666 
+Decile3: -0.818193 
+Decile4: -1.401091 
+Decile5: -1.865786 
+Decile6: -2.616666 
+Decile7: -2.480395 
+Decile8: -2.878451 
+Decile9: -3.148395 
+Decile10: -0.735553 
+
+CEV(%) Workers: 
+Decile1: 3.549304 
+Decile2: 3.129925 
+Decile3: 2.886137 
+Decile4: 2.641294 
+Decile5: 2.393042 
+Decile6: 2.217922 
+Decile7: 2.095359 
+Decile8: 1.925875 
+Decile9: 1.808438 
+Decile10: 1.458176 
+
+*****************************************************
+
+Comparing baseline with lump_sum
+CEV definition: CE1
+Total CEV(%): 1.916831 
+Total CEV Self-employed(%): -1.009518 
+Total CEV Workers(%): 2.404573 
+
+CEV(%) Self-employed: 
+Decile1: NaN 
+Decile2: -5.086046 
+Decile3: -0.880454 
+Decile4: -1.453742 
+Decile5: -1.894483 
+Decile6: -2.605011 
+Decile7: -2.433634 
+Decile8: -2.747867 
+Decile9: -2.849567 
+Decile10: 1.254776 
+
+CEV(%) Workers: 
+Decile1: 3.073104 
+Decile2: 2.678898 
+Decile3: 2.501707 
+Decile4: 2.343621 
+Decile5: 2.188885 
+Decile6: 2.103403 
+Decile7: 2.079246 
+Decile8: 2.046840 
+Decile9: 2.136451 
+Decile10: 2.893486 
+
+******************************************
+
+Comparing baseline with cut_tax_all_pe
+CEV definition: CE1
+Total CEV(%): 1.862317 
+Total CEV Self-employed(%): -1.975965 
+Total CEV Workers(%): 2.502054 
+
+CEV(%) Self-employed: 
+Decile1: NaN 
+Decile2: -6.011769 
+Decile3: -1.381953 
+Decile4: -1.792018 
+Decile5: -2.171600 
+Decile6: -2.869063 
+Decile7: -2.670726 
+Decile8: -3.052528 
+Decile9: -3.266910 
+Decile10: -0.710754 
+
+CEV(%) Workers: 
+Decile1: 3.207668 
+Decile2: 3.008513 
+Decile3: 2.838858 
+Decile4: 2.628081 
+Decile5: 2.414980 
+Decile6: 2.273403 
+Decile7: 2.186268 
+Decile8: 2.038941 
+Decile9: 1.944462 
+Decile10: 1.642949 
+
+**********************************************************
+
+Comparing baseline with cut_tax_all
+CEV definition: CE1
+Total CEV(%): 1.809075 
+Total CEV Self-employed(%): -1.378085 
+Total CEV Workers(%): 2.340287 
+
+CEV(%) Self-employed: 
+Decile1: NaN 
+Decile2: -5.962253 
+Decile3: -1.559356 
+Decile4: -1.937790 
+Decile5: -2.284058 
+Decile6: -2.937571 
+Decile7: -2.700923 
+Decile8: -3.014494 
+Decile9: -3.089563 
+Decile10: 0.785474 
+
+CEV(%) Workers: 
+Decile1: 2.710605 
+Decile2: 2.558447 
+Decile3: 2.452792 
+Decile4: 2.317127 
+Decile5: 2.184440 
+Decile6: 2.120559 
+Decile7: 2.118704 
+Decile8: 2.084549 
+Decile9: 2.158673 
+Decile10: 2.738623 
+
+**************************************************
+
+Comparing baseline with cut_tax_se_pe
+CEV definition: CE1
+Total CEV(%): 0.869005 
+Total CEV Self-employed(%): 2.732735 
+Total CEV Workers(%): 0.558373 
+
+CEV(%) Self-employed: 
+Decile1: NaN 
+Decile2: 5.301055 
+Decile3: 3.506485 
+Decile4: 2.849610 
+Decile5: 2.267236 
+Decile6: 1.780277 
+Decile7: 1.534804 
+Decile8: 1.278207 
+Decile9: 1.203709 
+Decile10: 4.437762 
+
+CEV(%) Workers: 
+Decile1: 0.270495 
+Decile2: 0.351792 
+Decile3: 0.408110 
+Decile4: 0.492196 
+Decile5: 0.561010 
+Decile6: 0.624512 
+Decile7: 0.584181 
+Decile8: 0.622608 
+Decile9: 0.679133 
+Decile10: 1.736015 
+
+***********************************************
+
+Comparing baseline with cut_tax_se
+CEV definition: CE1
+Total CEV(%): 1.037706 
+Total CEV Self-employed(%): 2.402247 
+Total CEV Workers(%): 0.810274 
+
+CEV(%) Self-employed: 
+Decile1: NaN 
+Decile2: 5.344082 
+Decile3: 3.705369 
+Decile4: 3.030580 
+Decile5: 2.430929 
+Decile6: 1.914826 
+Decile7: 1.648154 
+Decile8: 1.335860 
+Decile9: 1.157459 
+Decile10: 3.484662 
+
+CEV(%) Workers: 
+Decile1: 0.725863 
+Decile2: 0.778770 
+Decile3: 0.794450 
+Decile4: 0.831479 
+Decile5: 0.853208 
+Decile6: 0.873286 
+Decile7: 0.784887 
+Decile8: 0.757440 
+Decile9: 0.714385 
+Decile10: 1.185281 
