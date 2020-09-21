@@ -1,0 +1,57 @@
+# Makefile for paper The Aggregate Consequences of Tax Evasion
+
+# Defining variables
+executable = fortran_win64.exe
+
+objects = mod_param.obj mod_baselib.obj main.obj sub_read.obj \
+          sub_vfi.obj sub_howard.obj sub_dist.obj sub_write.obj
+
+f90comp = ifort
+
+#ifeq ("$(f90comp)", "ifort") 
+
+#switch1 = -fast -ipo -O3 -no-prec-div -xHost -openmp /Qparallel /Qopenmp
+switch1 = /fast /Qopenmp 
+ 
+#endif 
+
+# Targets
+$(executable): $(objects)
+	$(f90comp) -o $(executable) $(switch1) $(switch2) $(objects)
+
+mod_param.mod: mod_param.obj mod_param.f90
+	$(f90comp) -c $(switch1) $(switch2) mod_param.f90
+mod_param.obj: mod_param.f90
+	$(f90comp) -c $(switch1) $(switch2) mod_param.f90
+
+mod_baselib.mod: mod_baselib.obj mod_baselib.f90
+	$(f90comp) -c $(switch1) $(switch2) mod_baselib.f90
+mod_baselib.obj: mod_baselib.f90
+	$(f90comp) -c $(switch1) $(switch2) mod_baselib.f90
+
+main.obj: mod_param.mod mod_baselib.mod main.f90
+	$(f90comp) -c $(switch1) $(switch2) main.f90
+	
+sub_read.obj: mod_param.mod sub_read.f90
+	$(f90comp) -c $(switch1) $(switch2) sub_read.f90
+		
+sub_vfi.obj: mod_param.mod mod_baselib.mod sub_vfi.f90
+	$(f90comp) -c $(switch1) $(switch2) sub_vfi.f90
+
+sub_howard.obj: mod_param.mod mod_baselib.mod sub_howard.f90
+	$(f90comp) -c $(switch1) $(switch2) sub_howard.f90
+	
+sub_dist.obj: mod_param.mod mod_baselib.mod sub_dist.f90
+	$(f90comp) -c $(switch1) $(switch2) sub_dist.f90
+
+sub_write.obj: mod_param.mod sub_write.f90
+	$(f90comp) -c $(switch1) $(switch2) sub_write.f90
+		
+# Cleaning everything
+clean:
+	del mod_param.mod
+	del mod_baselib.mod
+	del $(objects)
+	del $(executable)
+	
+# End of the makefile

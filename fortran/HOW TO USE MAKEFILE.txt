@@ -1,0 +1,24 @@
+On a Windows computer, please follow these steps:
+
+1) Launch the command prompt from Intel Visual Fortran
+
+2) Change directory to where the fortran sources are stored, 
+   e.g. type the following in the command prompt: 
+   cd "..\codes and data\Fortran files\Source Codes\v3\windows" 
+
+3) Type "nmake /f makefile_win clean" in order to delete old files
+
+4) Type "nmake /f makefile_win" in order to compile the Fortran source files
+   and generate an executable called "fortran_win64.exe"
+
+5) Copy "fortran_win64.exe" and save it in the "Matlab\exe" folder
+
+N.B. In (1) it is important to launch the command prompt from Intel Visual Fortran
+N.B. If you add a .f90 file to the project, you have to modify the makefile
+     accordingly
+
+------------------------------------------------------------------------------
+To go back, up arrow
+To change directory, cd
+To delete a file, del
+To search folders, tab
